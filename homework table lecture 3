@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <style>
+            table,td,tr,th{
+                border:1px solid black;
+                border-collapse: collapse;
+            }
+            </style>
+        <table>
+            <tr>
+                <th colspan="6">TIME TABLE</th>
+                
+            </tr>
+            <TR>
+                <TD rowspan="6">hours</TD>
+                <TH>MON</TH>
+                <TH>TUE</TH>
+                <TH>WED</TH>
+                <TH>THUR</TH>
+                <TH>FRI</TH>
+            </TR>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td colspan="6" style="text-align:center">Lunch</td>
+               
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+        </table>
+    </body>
+</html>
