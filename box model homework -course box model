@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height:240px;
+            width:300px;
+            background-color:white;
+            padding: 20px;
+            border:1px solid rgb(235, 205, 255);
+            box-shadow:bisque;
+            border-radius: 10px;
+        }
+        .colour{
+            color:bluevoilet;
+        }
+        .yut{
+            font-family:Cochin;
+            color:purple;
+        }
+        .butt{
+            background-color:rgb(23, 239, 23);
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <img class="img" src="codehelp.jfif">
+    <b font-size="x-large">Web development Master</b>
+        <b font-size="x-large">Course@dot Batch</b>
+        <hr>
+        <pre class="rty"><b class="yut">₹4500</b>  <del style="font-family:cochin">6900</del> <button class="butt">42% OFF</button>
+        </pre>
+    </div>
+</body>
+</html>
